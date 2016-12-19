@@ -1,0 +1,46 @@
+/* Kode CSS Ekternal*/
+
+header {
+	background: red !important;
+	color: white;
+	height: 50px;
+	padding: 50px;
+	font-family: Georgia;
+	font-size: 16px;
+}
+
+a {
+	padding: 10px;
+	text-decoration: none;
+	color: teal;
+	border-radius: 8px;
+}
+
+a:hover {
+	background: #ace9a0;
+}
+
+article {
+	margin: 20px 20%;
+	padding: 16px;
+	border: 1px dashed grey;
+	line-height: 1.5em;
+}
+
+.biru {
+	color: blue;
+}
+
+.bg-kuning {
+	background: yellow;
+}
+
+.merah {
+	color: red;
+}
+
+#footer {
+	background: teal;
+	color: white;
+	font-family: Sans;
+}

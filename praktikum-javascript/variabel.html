@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Variabel di Javascript</title>
+
+        <script type="text/javascript">
+
+            // membuat variabel dan mengambil input
+            nama = window.prompt("Siapakah nama anda?");
+            var alamat = window.prompt("Dari mana anda berasal?");
+            var umur = window.prompt("Berapa umurnya?");
+
+            if(umur < 18 ){
+                window.alert("Anda tidak diizinkan mengakses web ini!");
+            } else {
+                // menulis output ke dokumen HTML
+                document.write("Nama = " + nama + "<br>");
+                document.write("Alamat = " + alamat + "<br>");
+                document.write("Umur = " + umur + " tahun<br>");
+            }
+
+
+        </script>
+
+    </head>
+    <body>
+
+    </body>
+</html>

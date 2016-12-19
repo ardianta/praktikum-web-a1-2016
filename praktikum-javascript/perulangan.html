@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Perulangan Javascript</title>
+
+        <script type="text/javascript">
+
+        function prosesPesan(){
+            var pesan = document.getElementById("pesan").value;
+            var jumlah = document.getElementById("jumlah").value;
+
+            if(pesan == ""){
+                alert("Pesan tidak boleh kosong!");
+            } else {
+                document.getElementById("hasil").innerHTML = "";
+                for( i = 0; i <= jumlah; i++){
+                    document.getElementById("hasil").innerHTML += "<p>" + pesan + "</p>";
+                }
+            }
+
+        }
+
+        </script>
+
+    </head>
+    <body>
+
+        <p>Pesan: <input type="text" id="pesan" placeholder="Tulis sebuah pesan"/></p>
+        <p>Tampilkan sebanyak: <input type="number" min="0" id="jumlah" /><p>
+        <p><input type="button" id="btn_proses" onclick="prosesPesan()" value="Proses" /></p>
+
+        <div id="hasil"></div>
+
+    </body>
+</html>

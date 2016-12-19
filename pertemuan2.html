@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CRUD Mahasiswa</title>
+</head>
+
+<body>
+	<!-- untuk menandai bagian kepala/judul pada halaman body -->
+	<header>
+		<h2 align="center">Aplikasi CRUD Mahasiswa</h2>	
+	</header>
+
+	<!-- untuk menandai bagian navigasi/menu pada halaman body -->
+	<nav>
+		<p align="center">
+			<a href="home.html" title="Link ke halaman home">Home</a> |
+			<a href="data_mhs.html" title="Link ke halaman Mahasiswa">Data Mahasiswa</a> |
+			<a href="about.html" title="Link ke halaman About">About</a> |
+			<a href="login.html" title="Link ke halaman Login">Login</a>
+		</p>
+		<hr/>
+	</nav>
+
+	<!-- untuk manandai bagian artikel/isi dari halaman body -->
+	<article>
+		
+		<h2 align="center">Tambah Data Mahasiswa</h2>
+
+		<fieldset>
+			<legend>Form Tambah Mahasiswa</legend>
+
+			<table align="center" cellpadding="10px">
+				<form action="" method="POST">
+					<tr>
+						<td>N I M</td>
+						<td>:</td>
+						<td>
+							<input type="password" maxlength="10" name="nim" required placeholder="masukkan nim">
+						</td>
+					</tr>
+
+					<tr>
+						<td>Nama Mahasiswa</td>
+						<td>:</td>
+						<td>
+							<input type="text" name="nama_mhs" size="50" required placeholder="masukkan nama mahasiswa">
+						</td>
+					</tr>
+
+					<tr>
+						<td>Jurusan</td>
+						<td>:</td>
+						<td>
+							<input type="radio" name="jurusan" value="S1 TI">S1 Teknik Informatika
+							<input type="radio" name="jurusan" value="D3 TI">D3 Teknik Informatika
+						</td>
+					</tr>
+
+					<tr>
+						<td>Semester</td>
+						<td>:</td>
+						<td>
+							<select name="semester">
+								<option value="">Pilih semester</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Angkatan</td>
+						<td>:</td>
+						<td>
+							<select name="angkatan">
+								<option value="">Pilih angkatan</option>
+								<option value="2011">2011</option>
+								<option value="2012">2012</option>
+								<option value="2013">2013</option>
+								<option value="2014">2014</option>
+								<option value="2015">2015</option>
+								<option value="2016">2016</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Alamat</td>
+						<td>:</td>
+						<td>
+							<textarea name="alamat" cols="40" rows="3"></textarea>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Bahasa Pemrograman</td>
+						<td>:</td>
+						<td>
+							<input type="checkbox" name="skill" value="PHP">PHP
+							<input type="checkbox" name="skill" value="java">Java
+							<input type="checkbox" name="skill" value="python">PyThon
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<input type="submit" name="simpan" value="Simpan Data">
+							<button type="reset" name="batal">
+								Batal
+							</button>
+						</td>
+					</tr>
+
+				</form>
+			</table>
+
+		</fieldset>
+		
+	</article>
+
+	<!-- untuk menandai bagian kaki/footer dari halaman body -->
+	<footer>
+		<hr/>
+		<p align="center">
+			&copy;Copyright <strong>Pemrograman WEB 2016</strong>
+		</p>
+	</footer>
+
+
+</body>
+
+</html>

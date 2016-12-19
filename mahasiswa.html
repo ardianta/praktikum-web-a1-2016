@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRUD Mahasiswa</title>
+
+	<style type="text/css">
+	/* Kode CSS Internal*/
+
+	header {
+		background: #1ec0ff;;
+		color: white;
+		height: 50px;
+		padding: 50px;
+		font-family: Georgia;
+		font-size: 16px;
+	}
+
+	a {
+		padding: 10px;
+		text-decoration: none;
+		color: teal;
+		border-radius: 8px;
+	}
+
+	a:hover {
+		background: #ace9a0;
+	}
+
+	</style>
+
+</head>
+<body style="font-family: Arial;">
+	<header>
+		<h2 align="center">Aplikasi CRUD Mahasiswa</h2>
+	</header>
+	<nav>
+		<p align="center">
+			<a href="home.html" title="Link ke Home">Home</a> |
+			<a href="mahasiswa.html" title="Link ke Data Mahasiswa">Data Mahasiswa</a> |
+			<a href="about.html" title="Link ke About"> About</a> |	
+			<a href="login.html" title="Link ke login"> Login</a> 	
+		</p>
+	</nav>
+	<hr/>
+	
+	<article>
+		<h3 align="center">Data Mahasiswa</h3>
+		<p align="center">
+			<a href="tambah_mhs.html" title="">+ Tambah Data Mahasiswa</a> | <a href="" title="">Save As PDF</a>
+		</p>
+
+		<table align="center" border="1" cellpadding="10px">
+			<thead>
+				<tr>
+					<td colspan="7" align="center"><big>Tabel Daftar Mahasiswa Teknik Informatika</big></td>
+				</tr>
+				<tr>
+					<th>#</th>
+					<th>N I M</th>
+					<th>Nama Mahasiswa</th>
+					<th>Jurusan</th>
+					<th>Semester</th>
+					<th>Angkatan</th>
+					<th>Aksi</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>1010520148</td>
+					<td>Abbas</td>
+					<td>D3 Teknik Informatika</td>
+					<td>V (Lima)</td>
+					<td>2014</td>
+					<td>
+						<a href="#" title="Edit Data Mahasiswa">Edit</a> |
+						<a href="#" title="Hapus Data Mahasiswa" onclick="return confirm('Yakin ingin hapus data ini?')">Delete</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>2</td>
+					<td>1010520149</td>
+					<td>Ahmad Limardi</td>
+					<td>S1 Teknik Informatika</td>
+					<td>V (Lima)</td>
+					<td>2014</td>
+					<td>
+						<a href="#" title="Edit Data Mahasiswa">Edit</a> |
+						<a href="#" title="Hapus Data Mahasiswa" onclick="return confirm('Yakin ingin hapus data ini?')">Delete</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>3</td>
+					<td>1010520150</td>
+					<td>Muhammad Mahzan</td>
+					<td>S1 Teknik Informatika</td>
+					<td>V (Lima)</td>
+					<td>2014</td>
+					<td>
+						<a href="#" title="Edit Data Mahasiswa">Edit</a> |
+						<a href="#" title="Hapus Data Mahasiswa" onclick="return confirm('Yakin ingin hapus data ini?')">Delete</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p align="center">
+			<< <a href="#" title="page number">1</a> 2 3 4 5 6 >>
+		</p>
+	</article>
+
+	<footer>
+		<hr/>
+		<p align="center">
+			&copy;copyright <b>Pemrograman WEB 2016</b>
+		</p>
+	</footer>
+</body>
+</html>
